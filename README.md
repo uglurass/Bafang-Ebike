@@ -1,18 +1,3 @@
 # Bafang-Ebike
 This is modification of firmware.
 
-//coming up later... making the bafang cable to hack the unit simple usb to ttl used in this case.
-
-Dl and open the software stc-isp6.86 "it will offer you updates, simple use this one.
-Only change these options below
-select the MCU Type. under "STC15W4K32S4" branch select "IAP15W4K61S4"
-set Max Baud "57600"
-Set Input IRC frequency 18.432 Hz
-UNCHECK "enable longer power-on-reset latency
-Open Code File and decide which one.
-lastly hit Download/Program to initate transfer, and the program waits for activity on selected port...
-
- with your motor connected to power supply "battery" or alternative power source that your motor is specs for 36-52v connecting the usb to ttl 
-assuming the usb is connected, connect the cable to the controller plug* on EB-BUS cable "the cable harness is called EB-BUS cable" 
-
-# motor only has a split second on bootup to flash new firmware.
